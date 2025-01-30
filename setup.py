@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 from glob import glob
 
-package_name = 'VIP-Hello-World'
+package_name = 'vip-hello-world'
 
 setup(
     name=package_name,
@@ -17,9 +17,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'camera_node = VIP-Hello-World.zed_camera_node:main',
-            'processing_node = VIP-Hello-World.processing_node:main',
-            'control_node = VIP-Hello-World.control_node:main',
+            'camera_node = vip-hello-world.zed_camera_node:main',
+            'processing_node = vip-hello-world.processing_node:main',
+            'control_node = vip-hello-world.control_node:main',
         ],
     },
 )

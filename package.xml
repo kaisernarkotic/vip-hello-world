@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>VIP-Hello-World</name>
+  <name>vip-hello-world</name>
   <version>0.0.0</version>
   <description>ROS2 package for color-based F1TENTH car control</description>
   <maintainer email="achen694@gatech.edu">Alex Chen</maintainer>
